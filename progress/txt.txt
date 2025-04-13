@@ -1,0 +1,46 @@
+command -v nvm
+
+----instale nvm----
+curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+source ~/.zshrc
+nvm -v
+
+----atualize nvm----
+nvm install 18
+nvm use 18
+
+----defina o novo nvm como padrão----
+nvm alias default 18
+
+
+----instala o expo----
+yarn add expo
+--ou--
+npm install expo
+
+
+export PATH="nfs/homes/vgomes-p/.nvm/versions/node/v23.00/bin:$PATH"
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+npx create-expo-app@latest --template
+	escolhe o template
+	escolhe um nome
+	entra na pasta
+
+npx expo start
+--ou--
+npm run start
+--ou--
+npx expo start --clear
+
+
+---para android---
+a
+--ou ler o qr code--
+
+
+
+---erro com expo nessa poha---
+npx expo start --tunnel
+npm install -g expo-cli
+expo start

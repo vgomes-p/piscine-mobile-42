@@ -1,0 +1,1 @@
+> If you want to test this app, remember to update the file `firebase.ts` with your firebase configs
